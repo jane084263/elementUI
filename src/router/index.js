@@ -147,11 +147,16 @@ var _export = new Router({
                     require(['./../assets/views/transfer.vue'], resolve)
                 }
             },
-            // form 表单
             {
                 path: "/table",
                 component: (resolve) => {
                     require(['./../assets/views/table.vue'], resolve)
+                }
+            },
+            {
+                path: "/form",
+                component: (resolve) => {
+                    require(['./../assets/views/form.vue'], resolve)
                 }
             },
             {
@@ -164,6 +169,36 @@ var _export = new Router({
                 path: "/pagination",
                 component: (resolve) => {
                     require(['./../assets/views/pagination.vue'], resolve)
+                }
+            },
+            {
+                path: "/alert",
+                component: (resolve) => {
+                    require(['./../assets/views/alert.vue'], resolve)
+                }
+            },
+            {
+                path: "/loading",
+                component: (resolve) => {
+                    require(['./../assets/views/loading.vue'], resolve)
+                }
+            },
+            {
+                path: "/message",
+                component: (resolve) => {
+                    require(['./../assets/views/message.vue'], resolve)
+                }
+            },
+            {
+                path: "/messageBox",
+                component: (resolve) => {
+                    require(['./../assets/views/messageBox.vue'], resolve)
+                }
+            },
+            {
+                path: "/notification",
+                component: (resolve) => {
+                    require(['./../assets/views/notification.vue'], resolve)
                 }
             },
         ]

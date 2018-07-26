@@ -41,23 +41,89 @@
                     <el-menu-item index="/pagination">pagination 分页</el-menu-item>
                     <el-menu-item index="/badge">Badge 标记</el-menu-item>
                 </el-menu-item-group>
+                <el-menu-item-group>
+                     <span slot="title">
+                        <i class="el-icon-menu"></i>
+                        Notice
+                    </span>
+                    <el-menu-item index="/alert">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Alert 警告</span>
+                    </el-menu-item>
+                    <el-menu-item index="/loading">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Loading 加载</span>
+                    </el-menu-item>
+                    <el-menu-item index="/message">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Message 消息提示</span>
+                    </el-menu-item>
+                    <el-menu-item index="/messageBox">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">MessageBox 弹框</span>
+                    </el-menu-item>
+                    <el-menu-item index="/notification">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Notification 通知</span>
+                    </el-menu-item>
+                </el-menu-item-group>
+                <el-menu-item-group>
+                     <span slot="title">
+                        <i class="el-icon-menu"></i>
+                        Navigation 导航
+                    </span>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title"></span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">NavMenu 导航菜单</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Tabs 标签页</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Breadcrumb 面包屑</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Dropdown 下拉菜单</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">steps 步骤条</span>
+                    </el-menu-item>
+                </el-menu-item-group>
+                <el-menu-item-group>
+                     <span slot="title">
+                        <i class="el-icon-menu"></i>
+                        Others
+                    </span>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title"> Dialog 对话框</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Popover 弹出框</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Card 卡片</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Carousel 走马灯</span>
+                    </el-menu-item>
+                    <el-menu-item index="4">
+                        <i class="el-icon-setting"></i>
+                        <span slot="title">Collapse 折叠面板</span>
+                    </el-menu-item>
+                </el-menu-item-group>
 
-                <el-menu-item index="4">
-                    <i class="el-icon-setting"></i>
-                    <span slot="title">导航四</span>
-                </el-menu-item>
-                <el-menu-item index="4">
-                    <i class="el-icon-setting"></i>
-                    <span slot="title">导航四</span>
-                </el-menu-item>
-                <el-menu-item index="4">
-                    <i class="el-icon-setting"></i>
-                    <span slot="title">导航四</span>
-                </el-menu-item>
-                <el-menu-item index="4">
-                    <i class="el-icon-setting"></i>
-                    <span slot="title">导航四</span>
-                </el-menu-item>
             </el-menu>
         </el-aside>
         <el-container>
