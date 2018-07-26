@@ -1,0 +1,46 @@
+@import '_mixin-css3.scss'; // css3的类方法
+
+@mixin reset() {
+  html,
+  body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 100%;
+  }
+  * {
+    @include hack('user-select', none);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  input[type=color],
+  input[type=data],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url],
+  input[type=week],
+  select,
+  textarea {
+    @include hack(user-select, text);
+  }
+  .button,
+  button,
+  input[type=reset],
+  input[type=submit],
+  input[type=button] {
+    color: inherit;
+    @include hack(apprearance, none);
+  }
+  a {
+    text-decoration:none;
+    outline:none;
+  }
+}

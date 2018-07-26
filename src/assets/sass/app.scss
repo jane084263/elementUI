@@ -1,0 +1,15 @@
+@import '_mixin-reset.scss';
+@include reset;
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+}
+.text-center {
+  text-align:center;
+}
+.text-left {
+  text-align:left;
+}
+.text-right {
+  text-align:right;
+}

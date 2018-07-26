@@ -1,0 +1,6 @@
+@mixin hack($name,$value) {
+  -moz-#{$name}:$value;
+  -webkit-#{$name}:$value;
+  -o-#{$name}:$value;
+  #{$name}:$value;
+}
