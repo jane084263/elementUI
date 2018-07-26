@@ -3,12 +3,31 @@
         <el-header class="text-center">
             <h3>this is demo</h3>
         </el-header>
-        <el-main></el-main>
+        <el-main>
+            <el-steps :active="active" finish-status="success">
+                <el-step title="步骤 1"></el-step>
+                <el-step title="步骤 2"></el-step>
+                <el-step title="步骤 3"></el-step>
+            </el-steps>
+            <el-button style="margin-top: 12px;" @click="next">下一步</el-button>
+        </el-main>
     </el-container>
 
 </template>
 <script>
+    export default {
+        data() {
+            return {
+                active: 0
+            };
+        },
 
+        methods: {
+            next() {
+                if (this.active++ > 2) this.active = 0;
+            }
+        }
+    }
 </script>
 <style lang="scss">
 

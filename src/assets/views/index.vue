@@ -72,27 +72,29 @@
                         <i class="el-icon-menu"></i>
                         Navigation 导航
                     </span>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/navMeue">
                         <i class="el-icon-setting"></i>
-                        <span slot="title"></span>
+                        <span slot="title">
+                            naveMeue
+                        </span>
                     </el-menu-item>
                     <el-menu-item index="4">
                         <i class="el-icon-setting"></i>
                         <span slot="title">NavMenu 导航菜单</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/tab">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Tabs 标签页</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/breadCrumbs">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Breadcrumb 面包屑</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/dropDown">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Dropdown 下拉菜单</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/steps">
                         <i class="el-icon-setting"></i>
                         <span slot="title">steps 步骤条</span>
                     </el-menu-item>

@@ -201,6 +201,36 @@ var _export = new Router({
                     require(['./../assets/views/notification.vue'], resolve)
                 }
             },
+            {
+                path: "/navMeue",
+                component: (resolve) => {
+                    require(['./../assets/views/navMeue.vue'], resolve)
+                }
+            },
+            {
+                path: "/tab",
+                component: (resolve) => {
+                    require(['./../assets/views/tab.vue'], resolve)
+                }
+            },
+            {
+                path: "/breadCrumbs",
+                component: (resolve) => {
+                    require(['./../assets/views/breadCrumbs.vue'], resolve)
+                }
+            },
+            {
+                path: "/dropDown",
+                component: (resolve) => {
+                    require(['./../assets/views/dropDown.vue'], resolve)
+                }
+            },
+            {
+                path: "/steps",
+                component: (resolve) => {
+                    require(['./../assets/views/steps.vue'], resolve)
+                }
+            },
         ]
     },]
 })
