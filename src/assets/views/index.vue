@@ -104,23 +104,23 @@
                         <i class="el-icon-menu"></i>
                         Others
                     </span>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/dialog">
                         <i class="el-icon-setting"></i>
                         <span slot="title"> Dialog 对话框</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/popup">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Popover 弹出框</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/card">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Card 卡片</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/carousel">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Carousel 走马灯</span>
                     </el-menu-item>
-                    <el-menu-item index="4">
+                    <el-menu-item index="/collapse">
                         <i class="el-icon-setting"></i>
                         <span slot="title">Collapse 折叠面板</span>
                     </el-menu-item>

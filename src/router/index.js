@@ -231,6 +231,36 @@ var _export = new Router({
                     require(['./../assets/views/steps.vue'], resolve)
                 }
             },
+            {
+                path: "/dialog",
+                component: (resolve) => {
+                    require(['./../assets/views/dialog.vue'], resolve)
+                }
+            },
+            {
+                path: "/popup",
+                component: (resolve) => {
+                    require(['./../assets/views/popup.vue'], resolve)
+                }
+            },
+            {
+                path: "/card",
+                component: (resolve) => {
+                    require(['./../assets/views/card.vue'], resolve)
+                }
+            },
+            {
+                path: "/carousel",
+                component: (resolve) => {
+                    require(['./../assets/views/Carousel.vue'], resolve)
+                }
+            },
+            {
+                path: "/collapse",
+                component: (resolve) => {
+                    require(['./../assets/views/Collapse.vue'], resolve)
+                }
+            },
         ]
     },]
 })
