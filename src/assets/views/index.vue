@@ -27,15 +27,21 @@
                     <el-menu-item index="/datePicker">DatePicker 日期选择器</el-menu-item>
                     <el-menu-item index="/dateTimePicker">DateTmePicker 日期选择器</el-menu-item>
                     <el-menu-item index="/uploader">uploader</el-menu-item>
+                    <el-menu-item index="/rate">rate 评分</el-menu-item>
+                    <el-menu-item index="/colorPicker">colorPicker</el-menu-item>
+                    <el-menu-item index="/transfer">transfer 穿梭框</el-menu-item>
+                    <el-menu-item index="/form">form 表单</el-menu-item>
                 </el-menu-item-group>
-                <el-menu-item index="2">
-                    <i class="el-icon-menu"></i>
-                    <span slot="title">导航二</span>
-                </el-menu-item>
-                <el-menu-item index="3" disabled>
-                    <i class="el-icon-document"></i>
-                    <span slot="title">导航三</span>
-                </el-menu-item>
+                <el-menu-item-group index="2">
+                    <span slot="title">
+                        <i class="el-icon-menu"></i>
+                        Data
+                    </span>
+                    <el-menu-item index="/table">table</el-menu-item>
+                    <el-menu-item index="/pagination">pagination 分页</el-menu-item>
+                    <el-menu-item index="/badge">Badge 标记</el-menu-item>
+                </el-menu-item-group>
+
                 <el-menu-item index="4">
                     <i class="el-icon-setting"></i>
                     <span slot="title">导航四</span>

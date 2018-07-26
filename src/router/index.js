@@ -1,20 +1,27 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 Vue.use(Router)
 var _export = new Router({
-    mode:'hash',
-    routes:[{
-        path:"/",
-        redirect:{
-            path:'/index'
+    mode: 'hash',
+    routes: [{
+        path: "/",
+        redirect: {
+            path: '/index'
         }
-    },{
-        path:"/index",
-        component:(resolve) =>{
-            require(['./../assets/views/index.vue'],resolve)
+    }, {
+        path: "/index",
+        component: (resolve) => {
+            require(['./../assets/views/index.vue'], resolve)
         },
-        children:[
+        children: [
             // 页面布局
+            {
+                path: '/',
+                redirect: {
+                    path: '/layout'
+                }
+            },
             {
                 path: "/layout",
                 component: (resolve) => {
@@ -117,6 +124,46 @@ var _export = new Router({
                 path: "/uploader",
                 component: (resolve) => {
                     require(['./../assets/views/uploader.vue'], resolve)
+                }
+            },
+            // rate
+            {
+                path: "/rate",
+                component: (resolve) => {
+                    require(['./../assets/views/rate.vue'], resolve)
+                }
+            },
+            // colorPicker
+            {
+                path: "/colorPicker",
+                component: (resolve) => {
+                    require(['./../assets/views/colorPicker.vue'], resolve)
+                }
+            },
+            // transfer
+            {
+                path: "/transfer",
+                component: (resolve) => {
+                    require(['./../assets/views/transfer.vue'], resolve)
+                }
+            },
+            // form 表单
+            {
+                path: "/table",
+                component: (resolve) => {
+                    require(['./../assets/views/table.vue'], resolve)
+                }
+            },
+            {
+                path: "/badge",
+                component: (resolve) => {
+                    require(['./../assets/views/badge.vue'], resolve)
+                }
+            },
+            {
+                path: "/pagination",
+                component: (resolve) => {
+                    require(['./../assets/views/pagination.vue'], resolve)
                 }
             },
         ]
